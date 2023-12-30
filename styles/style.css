@@ -1,0 +1,30 @@
+body {
+    background-color: #1E1E1E;
+}
+
+form {
+    width: 793px;
+    height: 598px;
+    background-color: #1E1F29;
+}
+
+h1 {
+    display: block;
+    color: #fff;
+}
+
+input, textarea, select {
+    color: #FAFAFA;
+    background-color: #2E2D3D;
+    
+    
+}
+
+ label {
+    color: #AFB2BF;
+}
+
+button {
+    background-color: #6C38CC;
+    color: #FAFAFA;
+}
