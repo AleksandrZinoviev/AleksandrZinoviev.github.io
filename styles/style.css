@@ -2,6 +2,9 @@ ul {
     margin: 0;
     padding: 0;
 }
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
 /*------------------------------------------*/
 .page {
     background-color: rgb(29, 54, 81);
@@ -13,10 +16,12 @@ ul {
 }
 
 .header_navigation__list {
+    font-size: 18px;
     list-style: none;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 50px;
 }
 
 .nav_list__item {
