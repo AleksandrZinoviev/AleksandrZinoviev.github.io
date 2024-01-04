@@ -3,33 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" type="text/css" href="./styles/style.css" title="Defoult">
+    <link rel="alternate stylesheet" type="text/css" href="./styles/styleB.css" title="White">
     <title>HTML</title>
 </head>
-    <body>
+    <body class="page">
+        <header class="page_header">
+            <nav class="header_navigation">
+                <ul class="header_navigation__list nav_list">
+                    <li class="nav_list__item">Главная</li>
+                    <li class="nav_list__item">Почитать</li>
+                    <li class="nav_list__item">Интересное</li>
+                    <li class="nav_list__item">Календарь</li>
+                    <li class="nav_list__item">Галерея</li>
+                </ul>
+            </nav>
+        </header>
+        <aside>
+
+        </aside>
         <main>
-            <form>
-                <h1>Свяжитесь со мной</h1>
-                <div>
-                    <label for="email">E-mail*</label>
-                    <input type="email" name="email">
-                </div>
-                <div>
-                    <label for="telegram">Telegtam</label>
-                    <input type="text" name="telegram">
-                </div>
-                <div>
-                    <label for="w">Тема*</label>
-                    <select name="w" id="">
-                        <option value="">Приобретение курсов</option>
-                    </select>
-                </div>
-                <div>
-                    <label for="com">Комментарий</label>
-                    <textarea name="com" id="" cols="30" rows="10"></textarea>
-                </div>
-                <button type="submit">Отправить</button>
-            </form>
+
         </main>
+        <footer>
+
+        </footer>
     </body>
 </html>

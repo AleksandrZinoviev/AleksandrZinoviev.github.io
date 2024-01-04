@@ -1,30 +1,24 @@
-body {
-    background-color: #1E1E1E;
+ul {
+    margin: 0;
+    padding: 0;
+}
+/*------------------------------------------*/
+.page {
+    background-color: rgb(29, 54, 81);
 }
 
-form {
-    width: 793px;
-    height: 598px;
-    background-color: #1E1F29;
+.page_header {
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
-h1 {
-    display: block;
-    color: #fff;
+.header_navigation__list {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
-input, textarea, select {
-    color: #FAFAFA;
-    background-color: #2E2D3D;
-    
-    
-}
-
- label {
-    color: #AFB2BF;
-}
-
-button {
-    background-color: #6C38CC;
-    color: #FAFAFA;
+.nav_list__item {
+    color:#A3D0FF;
 }
